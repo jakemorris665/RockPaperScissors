@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Rock, Paper, Scissors</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<h1>Choose rock, paper, or scissors:</h1>
+<body>
+ <div id="playerSelection">
+   <button id="rock" class="Rock" type="image" onclick="select('rock')"><img src="Images/rock.png"></button>
+   <button id="paper" class="Paper" type="image" onclick="select('paper')"><img src="Images/paper.png"></button>
+   <button id="scissors" class="Scissors" type="image" onclick="select('scissors')"><img src="Images/scissors.png"></button>
+ </div>
+ <div id="playRound">
+   <button id="reset" class="Reset" type ="button">Reset game</button>
+ </div>
+
+ <div id="messages" class="Popups">
+   <h2 id="winMessage"></h2>
+   <h3 id="roundResult"></h3>
+   <h4 id="finalScore"></h4>
+ </div>
+
+ <script src="rockpaperscissors2.js"></script>
+</body>
+</html>

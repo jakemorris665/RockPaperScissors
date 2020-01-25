@@ -1,0 +1,74 @@
+
+html {
+    background-color:#fff3f3
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 17pt;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    bottom: 40%;
+    transform: translate(-50%, 0); 
+}
+
+h3 {
+    text-align: center;
+    font-size: 17pt;
+    position: fixed;
+    left: 50%;
+    top: 65%;
+    bottom: 25%;
+    transform: translate(-50%, 0);
+    overflow: auto;
+}
+
+h4 {
+    text-align: center;
+    font-size: 17pt;
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    bottom: 10%;
+    transform: translate(-50%, 0);
+    overflow: auto;
+}
+
+#playRound {
+    text-align: center;
+    margin-top: 40px;
+}
+#playerSelection {
+    text-align: center;
+}
+.rock {
+    background:#757070;
+    position: relative; 
+}
+.paper {
+    background:#ec1111;
+}
+.scissors {
+    background:#423dca;
+}
+
+.rock:hover {
+    transform:scale(1.05);
+    box-shadow:0 0 10px black;
+    transition:0.1s;
+}
+.paper:hover {
+    transform:scale(1.05);
+    box-shadow:0 0 10px black;
+    transition:0.1s;
+}
+.scissors:hover {
+    transform:scale(1.05);
+    box-shadow:0 0 10px black;
+    transition:0.1s;
+}
